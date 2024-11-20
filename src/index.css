@@ -11,3 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#root{
+  background-color: #00b825;
+  background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+}

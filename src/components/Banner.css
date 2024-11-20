@@ -1,0 +1,36 @@
+.banner-container {
+    margin-top: 80px;
+    position: relative;
+    height: 50vh;
+    overflow: hidden;
+  }
+  
+  .slider {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background-image 1s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay-text {
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .overlay-text h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .overlay-text p {
+    font-size: 1rem;
+    margin: 0;
+  }
